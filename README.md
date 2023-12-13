@@ -10,17 +10,13 @@ The data used in this study is the Breast Ultrasound Images dataset from Kaggle:
 
 Three different autoencoder models are implemented:
 
-1. **Linear Autoencoder:** A basic autoencoder with linear activation functions.
+1. **Linear Autoencoder:** A basic autoencoder with Tanh activation functions and dense layers as encoder and decoder.
 
-   ![Linear Autoencoder Architecture](./linear_autoencoder.png)
+   ![Autoencoder Result](./result_1.png)
 
 2. **Convolutional Autoencoder (CNN Autoencoder):** A convolutional autoencoder that utilizes convolutional and pooling layers to extract features from the image data.
 
-   ![CNN Autoencoder Architecture](./convolutional_autoencoder.png)
-
-3. **Variational Autoencoder (VAE):** A generative autoencoder that learns a latent representation of the data while minimizing reconstruction error and maximizing data reconstruction probability.
-
-   ![Variational Autoencoder (VAE) Architecture](./vae.png)
+   ![CNN Autoencoder Result](./result_2.png)
 
 **Feel free to use the notebook and contribute to the project!**
 
